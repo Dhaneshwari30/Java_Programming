@@ -20,7 +20,8 @@ class Logic
             n = n / 10;
        }
 
-       System.out.println("Sum of even and odd digits is: " + (iEvenSum+iOddSum));
+       System.out.println("Sum of even digits is: " + iEvenSum);
+       System.out.println("Sum of odd digits is: " + iOddSum);
     }
 }
 
@@ -31,4 +32,5 @@ class program18_4
         Logic obj = new Logic();
         obj.sumEvenOddDigits(123456);
     }
+
 }
