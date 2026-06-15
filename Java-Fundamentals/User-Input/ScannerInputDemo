@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+/*
+ Program: Input for user using Scanner
+ Author: Dhaneshwari Ghewari
+*/
+
+class ScannerInputDemo
+{
+    public static void main(String args[])
+    {
+        Scanner sobj = new Scanner(System.in);
+
+        System.out.print("Meter: ");
+        int iNo = sobj.nextInt();
+
+        System.out.println("Meter is: " + iNo);
+
+        sobj.close();
+    }
+}
