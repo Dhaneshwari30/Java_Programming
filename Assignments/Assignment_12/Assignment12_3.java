@@ -16,7 +16,7 @@ class Assignment12_3
         {
             if((iNo%i == 0) && (i%2 == 0))
             {
-               iSum =+ i; 
+               iSum += i; 
             }
         }
 
