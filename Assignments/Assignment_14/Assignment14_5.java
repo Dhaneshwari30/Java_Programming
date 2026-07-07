@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-class Assignment14_3
+class Assignment14_5
 {
     public static void main(String A[])
     {
@@ -24,6 +24,6 @@ class Assignment14_3
             iNo = iNo / 10;
         }
 
-        System.out.println("Total count of 2's is: "+iCount);
+        System.out.println("Total count less than 6: "+iCount);
     }
 }
