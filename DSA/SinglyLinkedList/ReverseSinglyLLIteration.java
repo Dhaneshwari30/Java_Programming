@@ -168,14 +168,7 @@ class SinglyLL
             iCount--;
         }
     }
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/// 
-///     Function Name : DeleteAtPos()
-///     Discription :   To delete the value from the linked list with the help of postion
-///     Parameter type: Integer
-///     Parameter:      Postion of value need to be deleted      
-/// 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
     public void DeleteAtPos(int iPos)
     {
         if(iPos < 1 || iPos > iCount)
@@ -207,32 +200,17 @@ class SinglyLL
             iCount--;
         }
     }
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/// 
+///     Function Name : ReverseLinkedList()
+///     Discription :   This funtion helps to reverse the linked list using Iteration
+///     Parameter type: -
+///     Parameter:       -     
+/// 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     public void ReverseLinkedList()
     {
-        /*node tempfirst = null;
-
-        for(int i = 1; i < iCount; i++)
-        {
-            node temp = this.first;
-
-            while(temp.next.next != null)
-            {
-                temp = temp.next;
-            }
-
-            temp.next.next = temp;
-            
-            if(tempfirst == null)
-            {
-                tempfirst = temp.next;
-            }
-
-            temp.next = null;
-        }
-
-        this.first = tempfirst;*/
-
         node prev = null;
         node current = this.first;
         node next = null;
